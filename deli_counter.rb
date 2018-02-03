@@ -7,9 +7,9 @@ def line(array)
   else
     line = []
     array.each do |person|
-     puts "#{array.find_index(person)+1}. #{person}"
+     Array(line).push("#{array.find_index(person)+1}. #{person}")
     end
-    puts "The line is currently:"
+    puts "The line is currently: #{line}"
   end
 end
 
