@@ -11,7 +11,7 @@ def line(array)
 end
 
 def take_a_number(array, name)
-  array << name
+  array.push(name)
   puts "Welcome, #{name}. You are number #{array.find_index("name")+1} in line."
 end
 
