@@ -14,10 +14,10 @@ def take_a_number(array, name)
   puts "Welcome, #{name}. You are number #{array.find_index(name)+1} in line."
 end
 
-#def now_serving
-#  if katz_deli.length != 0
-#  puts "Next person in line is #{line}"
-#  elsif katz_deli.length = 0
-#    puts "There is nobody waiting to be served!"
-#  end
-#end
+def now_serving(array)
+  if array.length == 0
+   puts "There is nobody waiting to be served!"
+  else 
+    puts ""
+  end
+end
