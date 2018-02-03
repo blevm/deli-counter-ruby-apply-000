@@ -14,7 +14,5 @@ def now_serving
   puts "Next person in line is #{line}"
   elsif katz_deli.length == 0
     puts "There is nobody waiting to be served!"
-
+  else
 end
-
-
