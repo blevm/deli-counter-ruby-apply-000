@@ -9,7 +9,7 @@ def line(array)
     array.each do |person|
      puts "#{array.find_index(person)+1}. #{person}"
     end
-    puts "The line is currently:
+    puts "The line is currently:"
   end
 end
 
