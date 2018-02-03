@@ -5,10 +5,11 @@ def line(array)
   if array.length == 0
    puts "The line is currently empty."
   else
-    puts "The line is currently:"
+    line = []
     array.each do |person|
      puts "#{array.find_index(person)+1}. #{person}"
     end
+    puts "The line is currently:
   end
 end
 
@@ -21,6 +22,6 @@ def now_serving(array)
   if array.length == 0
    puts "There is nobody waiting to be served!"
   else
-    puts ""
+    puts "Currently serving array[#{array.length}]."
   end
 end
